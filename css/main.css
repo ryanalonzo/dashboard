@@ -138,7 +138,6 @@ header {
 }
 .card {
     max-width: 100%;
-    background: blue;
     float: left;
     margin-left: 2%;
     margin-bottom: 2%;
@@ -240,4 +239,102 @@ span {
     margin-top: 20%;
     margin-left: 35%;
     color: #375799;
+}
+@media screen and (max-width: 768px) {
+    .sidebar-header-icon {
+        margin-top: 3%;
+        margin-right: 3%;
+        font-size: 1rem;
+        float: left;
+    }
+    .sidebar-header h3 {
+        font-size: 1.1rem;
+        font-family: "Open Sans";
+        font-weight: 300;
+        margin: auto;
+    }
+    .sidebar .icon-holder {
+        float: left;
+        margin-right: 3%;
+        margin-top: 2%;
+        font-size: 0.70rem;
+    }
+    .sidebar-body h3 {
+        font-family: "Open Sans Light";
+        font-size: .6rem;
+        padding-bottom: 5%;
+        padding-left: 10%;
+        margin-top: 5%;
+    }
+    .sidebar-body li {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 15%;
+        font-size: .90rem;
+        font-family: "Open Sans Light";
+    }
+    .profile-icon {
+        right: 100%;
+        bottom: 45%;
+    }
+    .dropbox-icon {
+        margin-top: 1%;
+        float: left;
+        font-size: .90rem;
+        margin-right: .3%;
+    }
+    .dropbox p {
+        margin-top: 1%;
+        font-size: 0.80rem;
+        font-family: "Open Sans Light";
+    }
+    .dropbox h3 {
+        margin-top: .6%;
+        font-family: "Open Sans";
+        font-size: 0.90rem;
+    }
+    .close {
+        position: absolute;
+        right: 1%;
+        top: 5%;
+        font-size: 0.90rem;
+    }
+    .close a {
+        color: #0070E0;
+        opacity: 0.50;
+    }
+    .card h3 {
+        padding-left: 7%;
+        padding-top: 7%;
+        font-size: .6rem;
+    }
+    .figure {
+        padding-left: 7%;
+        font-size: 1.3rem;
+    }
+    .card-icon {
+        font-size: 1rem;
+        position: absolute;
+        right: 7%;
+        bottom: 10%;
+    }
+    .buttons {
+        width: 30%;
+        margin: auto;
+    }
+    .button {
+        float: left;
+        height: 25px;
+        width: 25px;
+        border: 1px solid #DFDFDF;
+        margin-right: 5px;
+    }
+    .button:last-child {
+        margin-right: 0;
+    }
+    .button p {
+        margin-top: 20%;
+        margin-left: 35%;
+        color: #375799;
+    }
 }
