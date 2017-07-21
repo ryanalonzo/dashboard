@@ -61,6 +61,10 @@ main {
     font-size: 1rem;
     font-family: "Open Sans Light";
 }
+.sidebar-body a {
+    color: white;
+    text-decoration: none;
+}
 .sidebar-body li:hover {
     background: #21272A;
 }

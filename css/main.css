@@ -65,6 +65,10 @@ main {
     font-size: 1rem;
     font-family: "Open Sans Light";
 }
+.sidebar-body a {
+    color: white;
+    text-decoration: none;
+}
 .sidebar-body li:hover {
     background: #21272A;
 }
@@ -177,6 +181,7 @@ header {
 }
 .server {
     margin: 0 2% 2% 2%;
+    overflow-x: auto;
 }
 .upper {
     font-size: .75rem;
@@ -218,8 +223,7 @@ span {
     height: 80px;
 }
 .buttons {
-    width: 200px;
-    height: 5%;
+    width: 20%;
     margin: auto;
 }
 .button {
