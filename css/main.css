@@ -211,7 +211,6 @@ td {
     padding-right: 20px;
 }
 th {
-    height: 50px;
     text-align: left;
 }
 span {
@@ -336,5 +335,19 @@ span {
         margin-top: 20%;
         margin-left: 35%;
         color: #375799;
+    }
+    td {
+        border-bottom: 1px solid #DFDFDF;
+        padding-right: 2%;
+    }
+    table {
+        font-size: .70rem;
+    }
+    span {
+        color: blue;
+    }
+    .table-footer {
+        width: 100%;
+        height: 50px;
     }
 }
