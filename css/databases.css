@@ -424,7 +424,6 @@ td {
     .sub-header h4 {
         font-size: 0.60rem;
         font-family: "Open Sans Light";
-        margin-left: 29%;
         padding-top: 2%;
     }
     .cancel {
@@ -460,7 +459,7 @@ td {
         display:none;
     }
     nav ul {
-        max-width: 25%;
+        max-width: 30%;
         list-style: none;
         margin-top: 3%;
     }
@@ -494,7 +493,7 @@ td {
         font-size: 0.65rem;
     }
     .form-item input[type=text] {
-        width: 98%;
+        width: 96%;
         height: .6rem;
     }
     .form-error {
@@ -508,7 +507,7 @@ td {
         font-family: "Open Sans Light";
     }
     .form-item-2 input[type=text]{
-        width: 65%;
+        width: 58%;
         height: 0.6rem;
     }
     .form-item-2 h4 {
