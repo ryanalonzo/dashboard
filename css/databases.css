@@ -106,40 +106,38 @@ header {
     color: white;
 }
 .sub-header h4 {
-    font-size: 13px;
+    font-size: 0.85rem;
     font-family: "Open Sans Light";
-    margin-left: 20px;
-    padding-top: 20px;
+    margin-left: 2%;
+    padding-top: 2%;
 }
 .cancel {
     text-align: center;
-    right: 50px;
-    top: 10px;
-    width: 45px;
-    height: 25px;
+    right: 6%;
+    top: 25%;
+    width: 4%;
     position: absolute;
-    margin-right: 5px;
+    margin-right: 1%;
 }
 .cancel p {
     color: #0B76E1;
-    font-size: 13px;
+    font-size: .8rem;
     font-family: "Open Sans Light";
-    padding: 5px;
+    padding: 15%;
 }
 .save {
     text-align: center;
-    width: 45px;
-    height: 30px;
+    width: 4%;
     background: #0B76E1;
     position: absolute;
-    right: 5px;
-    top: 10px;
+    right: 2%;
+    top: 25%;
     overflow: hidden;
 }
 .save p {
-    font-size: 13px;
+    font-size: .8rem;
     font-family: "Open Sans Light";
-    padding: 5px;
+    padding: 15%;
     color: white;
 }
 nav {
@@ -239,13 +237,14 @@ nav ul {
     height: 1.5rem;
 }
 .form-error {
+    padding: 2%;
+    padding-right: 0;
     border: 2px solid red;
-    width: 75%;
+    width: 73%;
     margin-bottom: 2%;
     overflow: hidden;
 }
 .form-error p {
-    padding: 10px 0 10px 10px;
     font-family: "Open Sans Light";
     font-size: 0.75rem;
 }
@@ -404,7 +403,7 @@ td {
     }
     .box p {
         margin-top: 1%;
-        font-size: 0.50rem;
+        font-size: 0.55rem;
         font-family: "Open Sans Light";
     }
     .box h3 {
@@ -422,6 +421,38 @@ td {
         color: #0070E0;
         opacity: 0.50;
     }
+    .sub-header h4 {
+        font-size: 0.60rem;
+        font-family: "Open Sans Light";
+        margin-left: 29%;
+        padding-top: 2%;
+    }
+    .cancel {
+        text-align: center;
+        right: 20%;
+        top: 15%;
+        width: 3%;
+        position: absolute;
+        margin-right: 5%;
+    }
+    .cancel p {
+        color: #0B76E1;
+        font-size: .65rem;
+        font-family: "Open Sans Light";
+    }
+    .save {
+        width: 12%;
+        background: #0B76E1;
+        position: absolute;
+        right: 2%;
+        top: 3%;
+        overflow: hidden;
+    }
+    .save p {
+        font-size: .6rem;
+        font-family: "Open Sans Light";
+        color: white;
+    }
     nav {
         height: 3%;
     }
@@ -429,9 +460,8 @@ td {
         display:none;
     }
     nav ul {
-        max-width: 30%;
+        max-width: 25%;
         list-style: none;
-        margin: 0 auto;
         margin-top: 3%;
     }
     .nav-icon {
@@ -441,5 +471,108 @@ td {
     }
     .nav-icon:last-child {
         margin-right: 0;
+    }
+    .foo-bar p {
+        font-size: 0.6rem;
+        text-align: left;
+        font-family: "Open Sans Light";
+    }
+    .foo-bar h4 {
+        font-size: .65rem;
+        font-family: "Open Sans Light";
+    }
+    .form {
+        margin-right: 2%;
+        width: 58%;
+        float: right;
+    }
+    .form-item {
+        font-family: "Open Sans Light";
+        overflow: hidden;
+    }
+    .form-item h4 {
+        font-size: 0.65rem;
+    }
+    .form-item input[type=text] {
+        width: 98%;
+        height: .6rem;
+    }
+    .form-error {
+        display: none;
+    }
+    .form-error p {
+        font-family: "Open Sans Light";
+        font-size: 0.6rem;
+    }
+    .form-item-2 {
+        font-family: "Open Sans Light";
+    }
+    .form-item-2 input[type=text]{
+        width: 65%;
+        height: 0.6rem;
+    }
+    .form-item-2 h4 {
+        font-size: 0.65rem;
+    }
+    .third-layer-icon {
+        float: left;
+        margin-right: 1%;
+        font-size: .75rem;
+    }
+    .left p {
+        font-size: 0.6rem;
+        font-family: "Open Sans Light";
+        clear: both;
+    }
+    .left h4 {
+        font-size: .6rem;
+        font-family: "Open Sans Light";
+        margin-bottom: 10%;
+    }
+    .right {
+        overflow: hidden;
+        width: 58%;
+        padding-top: 1.5%;
+        padding-bottom: 2%;
+    }
+    td {
+        font-family: "Open Sans Light";
+        font-size: 0.55rem;
+        padding-top: 1%;
+        padding-right: 20%;
+    }
+    td:last-child {
+        padding-right: 0;
+    }
+    .fourth-layer-left h4 {
+        color: red;
+        font-size: 0.65rem;
+        font-family: "Open Sans";
+        margin-bottom: 5%;
+    }
+    .fourth-layer-left p {
+        font-size: .6rem;
+        font-family: "Open Sans Light";
+    }
+    .fourth-layer-right {
+        overflow: hidden;
+        width: 58%;
+        padding-top: 1.5%;
+        padding-bottom: 2%;;
+    }
+    .destroy {
+        width: 97%;
+        text-align: center;
+        padding: 0.5%;
+        border: 2px solid red;
+        border-radius: 3px;
+        font-family: "Open Sans";
+        font-size: 0.65rem;
+        margin-top: 0.5%;
+        color: red;
+    }
+    .fourth-layer-right p {
+        font-family: "Open Sans Light";
+        font-size: 0.6rem;
     }
 }
